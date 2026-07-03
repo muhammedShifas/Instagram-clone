@@ -197,78 +197,87 @@ body{
         cursor: pointer;
     }
 }
+.writings{
+    margin-left: 45px;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+    /* background-color: #4f5bd5; */
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
 .count{
+    position: relative;
+    margin-top: 10px;
+    width: 500px;
+    height: 40px;
+    /* background-color: aquamarine; */
     color: white;
     display: flex;
     gap: 5px;
-    padding-top: 5px;
-    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    i{
+        font-size: 26px;
+    }
 }
 .likecount{
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
-/* .likecount:hover i{
+.likecount:hover i{
     font-size: 28px;
-} */
-/* .love:hover{
-    font-size: 27px;
-} */
-.commentcount{
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
 }
-/* .commentcount:hover{
-    font-size: 27px;
+.comment{
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
 }
-.repost:hover{
-    font-size: 27px;
-}
-.share:hover{
-    font-size: 27px;
-}
-.save:hover{
-    font-size: 27px;
-} */
 .repost{
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
+    position: absolute;
+    left: 170px;
+    bottom: 10px;
 }
 .share{
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
+    position: absolute;
+    left: 250px;
+    bottom: 10px;
+}
+.comment:hover i{
+    font-size: 28px;
+}
+.repost:hover i{
+    font-size: 28px;
+}
+.share:hover i{
+    font-size: 28px;
+}
+.save:hover i{
+    font-size: 28px;
 }
 .save{
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    padding-left: 160px;
-    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
+
 .likedby{
     font-size: 14px;
     display: flex;
     gap: 5px;
-    padding-left: 10px;
-    padding-top: 15px;
+    margin-left: 15px;
+    
+    padding-top: 5px;
+    /* background-color: #4f5bd5; */
+    height: 30px;
+    width: 300px;
 }
 .marker{
     img{
@@ -280,8 +289,8 @@ body{
     display: flex;
     gap: 5px;
     align-items: center;
-    margin-top: 9px;
-    margin-left: 10px;
+    margin-top: px;
+    margin-left: 15px;
 }
 .name3{
     display: flex;
@@ -332,12 +341,17 @@ body{
 .follow{
     width: 120px;
     height: 50px;
-    /* background-color: #4f5bd5; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 5px;
-    button{
+}
+   
+.followcircle{
+       height: 32px;
+        width: 75px;
+        
+     button{
         height: 32px;
         width: 75px;
         color: white;
@@ -350,10 +364,14 @@ body{
         margin-left: 0;
     }
 }
-.follow:hover button{
-    background-color: #363C44;
+.followcircle:hover button{
+     background-color: #363C44;
     cursor: pointer;
 }
+/* .follow:hover button{
+    background-color: #363C44;
+    cursor: pointer;
+} */
 .ogpost1{
     display: flex;
     flex-direction: column;
@@ -420,6 +438,7 @@ body{
     height: 8px;
     border-radius: 50%;
     background-color: #5b5c62;
+    cursor: pointer;
 
 }
 /* third section */
