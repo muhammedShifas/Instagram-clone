@@ -112,8 +112,10 @@ body{
 }
 }
 .input1 input:focus{
-    outline: 2px solid #E7EAED;
+    outline: 2px solid #4699FF;
 }
+
+
 .input1:hover input{
     border: 1px solid #AAAFB5;
 }
