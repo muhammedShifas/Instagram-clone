@@ -231,41 +231,51 @@ body{
     position: absolute;
     left: 10px;
     bottom: 10px;
+    transition: 0.3s;
 }
 .likecount:hover i{
-    font-size: 28px;
+    font-size: 27px;
+    cursor: pointer;
 }
 .comment{
     position: absolute;
     left: 90px;
     bottom: 10px;
+    transition: 0.3s;
 }
 .repost{
     position: absolute;
     left: 170px;
     bottom: 10px;
+    transition: 0.3s;
 }
 .share{
     position: absolute;
     left: 250px;
     bottom: 10px;
+    transition: 0.3s;
 }
 .comment:hover i{
-    font-size: 28px;
+    font-size: 27px;
+    cursor: pointer;
 }
 .repost:hover i{
-    font-size: 28px;
+    font-size: 27px;
+    cursor: pointer;
 }
 .share:hover i{
-    font-size: 28px;
+    font-size: 27px;
+    cursor: pointer;
 }
 .save:hover i{
-    font-size: 28px;
+    font-size: 27px;
+    cursor: pointer;
 }
 .save{
     position: absolute;
     right: 10px;
     bottom: 10px;
+    transition: 0.3s;
 }
 
 .likedby{
